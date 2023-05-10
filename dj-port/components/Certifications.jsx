@@ -3,6 +3,7 @@ import Image from "next/image";
 import FccBadge from "../public/assets/certs_skills/fcc-cert.png";
 import AwsBadge from "../public/assets/certs_skills/aws-badge.png";
 import AzureBadge from "../public/assets/certs_skills/azure.png";
+import FccBadge2 from "../public/assets/certs_skills/fcc-cert2.png";
 
 const Certifications = () => {
   return (
@@ -12,7 +13,24 @@ const Certifications = () => {
           Certifications
         </p>
         <h2 className="py-4">What I've Earned</h2>
-        <div className="grid grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-8 mt-5">
+        <div className="grid grid-cols-4 lg:grid-cols-4 sm:grid-cols-1 xs:grid-cols-1 gap-8 mt-5">
+          <a
+            href="https://www.freecodecamp.org/certification/fccb436b151-6cf5-4f82-bd5a-6651ee8f6d22/data-analysis-with-python-v7"
+            target="_blank"
+            rel="noreferrer"
+            className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl"
+          >
+            <div className="grid grid-cols-1 items-center justify-center mt-8">
+              <div className="m-auto">
+                <Image
+                  src={FccBadge2}
+                  width="64px"
+                  height="64px"
+                  alt="fcc badge"
+                />
+              </div>
+            </div>
+          </a>
           <a
             href="https://www.freecodecamp.org/certification/fccb436b151-6cf5-4f82-bd5a-6651ee8f6d22/scientific-computing-with-python-v7"
             target="_blank"
