@@ -106,8 +106,8 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-200 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-sm">
-                Passionate About Building High-Quality Software That Makes A
-                Difference
+                Passionate about data insights for optimized strategies and
+                informed decisions.
               </p>
             </div>
           </div>

@@ -6,6 +6,9 @@ import Typescript from "../public/assets/certs_skills/typescript.png";
 import Html from "../public/assets/certs_skills/html.png";
 import Css from "../public/assets/certs_skills/css.png";
 import Javascript from "../public/assets/certs_skills/javascript.png";
+import Rlanguage from "../public/assets/certs_skills/rImage.png";
+import Sql from "../public/assets/certs_skills/sqlImage.png";
+import Tableau from "../public/assets/certs_skills/tableau.png";
 
 const Skills = () => {
   return (
@@ -31,6 +34,46 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Python</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
+            <div className="grid grid-cols-2 gap-4 items-center justify-center">
+              <div className="m-auto">
+                <Image
+                  src={Rlanguage}
+                  width="64px"
+                  height="64px"
+                  alt="R image"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>R</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
+            <div className="grid grid-cols-2 gap-4 items-center justify-center">
+              <div className="m-auto">
+                <Image src={Sql} width="64px" height="64px" alt="SQL image" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>SQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
+            <div className="grid grid-cols-2 gap-4 items-center justify-center">
+              <div className="m-auto">
+                <Image
+                  src={Tableau}
+                  width="64px"
+                  height="64px"
+                  alt="tableau image"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Tableau</h3>
               </div>
             </div>
           </div>

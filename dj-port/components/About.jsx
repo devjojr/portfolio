@@ -12,25 +12,33 @@ const About = () => {
           </p>
           <h2 className="py-4">Get To Know Me</h2>
           <p className="py-2 text-[#141b24]-600">
-            Hi, I'm Devon, a junior software developer with a passion for
-            creating solutions that make a difference. While I didn't take a
-            traditional path to get here, my unique background has given me a
-            fresh perspective and the ability to think outside the box.
+            Greetings! I'm Devon, an emerging data analyst ignited by my fervor
+            for harnessing the power of data to drive insightful solutions. My
+            unconventional trajectory, spanning administration and tutoring
+            roles, has endowed me with a versatile skill set that includes
+            effective communication, seamless collaboration, and an innate
+            creativity.
           </p>
           <p className="py-2 text-[#141b24]-600">
-            Before discovering my love for coding, I worked in administration
-            and volunteered as a tutor, where I learned the importance of
-            communication, collaboration, problem-solving, and mentorship. These
-            skills have proved invaluable in my transition to software
-            development and have allowed me to approach projects with a holistic
-            and creative mindset.
+            Before immersing myself in the realm of analytics, I fine-tuned my
+            abilities in problem-solving and mentorship. My toolkit is
+            well-furnished with accolades, boasting the Google Data Analytics
+            certification, as well as distinguished credentials from Azure, AWS,
+            and freeCodeCamp. This dynamic blend of experiences, combined with a
+            robust administrative foundation, ignites my enthusiasm to infuse
+            the realm of analytics with innovative perspectives and resourceful
+            solutions.
           </p>
           <p className="py-2 text-[#141b24]-600">
-            Although I'm new to the industry, I'm eager to learn and grow as a
-            developer. My experience includes online coursework and projects to
-            develop my skills, as well as certifications in Azure, AWS, and
-            FreeCodeCamp. I'm excited to take on new challenges and expand my
-            knowledge.
+            My diverse background equips me to thrive in diverse organizational
+            settings. I bring the ability to approach challenges with an open
+            mind and a fresh perspective, which I believe is vital for
+            problem-solving and innovative thinking. Moreover, my experience in
+            administration has instilled in me the significance of teamwork,
+            effective communication, and the ability to manage complex tasks
+            efficiently. I am dedicated to applying my growing analytical
+            prowess to drive impactful results and contribute positively to the
+            growth and success of any organization I am a part of.
           </p>
         </div>
         <div className="flex items-center justify-center w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl p-4 hover:scale-110 ease-in duration-300">
