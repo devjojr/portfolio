@@ -89,7 +89,7 @@ const Navbar = () => {
           className={
             navBar
               ? "fixed left-0 top-0 w-[75%] sm:w-[60%] xs:w-[65%] md:w-[45%] h-screen bg-[white] p-10 ease-in duration-700"
-              : "fixed left-[-150%] top-0 p-10 ease-in duration-400"
+              : "fixed left-[-170%] top-0 p-10 ease-in duration-400"
           }
         >
           <div>
@@ -106,8 +106,8 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-200 my-4">
               <p className="w-[85%] md:w-[90%] py-4 text-sm">
-                Passionate about data insights for optimized strategies and
-                informed decisions.
+                Problem-solver at the intersection of Data, Software, and Cloud
+                Computing, crafting strategies for informed choices.
               </p>
             </div>
           </div>

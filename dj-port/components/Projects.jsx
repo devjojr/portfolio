@@ -5,35 +5,42 @@ import goGameImage from "../public/assets/projects/go-game.png";
 import pythonGenImage from "../public/assets/projects/py-page-gen.png";
 import goNotesImage from "../public/assets/projects/go-notes.png";
 import cycCaseStudy from "../public/assets/projects/case-study-cyc1.png";
+import repeatCalls from "../public/assets/projects/business_intelligence/bg_repeat_calls.png";
 
 const Projects = () => {
   const projectList = [
     {
       id: 1,
+      title: "Customer Service Dashboard",
+      bgImage: repeatCalls,
+      projectRoute: "/CustomerServiceDashboard",
+    },
+    {
+      id: 2,
       title: "Cyclistic Case Study",
       bgImage: cycCaseStudy,
       projectRoute: "/CaseStudyCyclistic",
     },
     {
-      id: 2,
+      id: 3,
       title: "MERN Todo",
       bgImage: mernTodoImage,
       projectRoute: "/Merntodo",
     },
     {
-      id: 3,
+      id: 4,
       title: "Go Guessing Game",
       bgImage: goGameImage,
       projectRoute: "/Gogame",
     },
     {
-      id: 4,
+      id: 5,
       title: "Python Webpage Generator",
       bgImage: pythonGenImage,
       projectRoute: "/Pythongen",
     },
     {
-      id: 5,
+      id: 6,
       title: "Go Notes",
       bgImage: goNotesImage,
       projectRoute: "/Gonotes",
@@ -47,7 +54,7 @@ const Projects = () => {
     >
       <br />
       <br />
-      <div className="mx-auto px-4 py16 max-w-[1240px]">
+      <div className="mx-auto px-4 py-16 max-w-[1240px]">
         <p className="text-xl tracking-widest uppercase text-[#164879]">
           Projects
         </p>

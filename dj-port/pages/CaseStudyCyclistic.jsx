@@ -105,6 +105,7 @@ const CaseStudyCyclistic = () => {
           <ImageSlider slideImages={slideImages} />
         </div>
       </div>
+      <br />
     </div>
   );
 };

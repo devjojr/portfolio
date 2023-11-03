@@ -5,16 +5,37 @@ import AwsBadge from "../public/assets/certs_skills/aws-badge.png";
 import AzureBadge from "../public/assets/certs_skills/azure.png";
 import FccBadge2 from "../public/assets/certs_skills/fcc-cert2.png";
 import GdaBadge from "../public/assets/certs_skills/GCC_badge_DA.png"
+import GbiBadge from "../public/assets/certs_skills/bi_badge.png";
 
 const Certifications = () => {
   return (
-    <div id="certifications" className="p-2 w-full lg:h-screen">
-      <div className="flex flex-col justify-center max-w-[1240px] mx-auto h-full">
+    <div
+      id="certifications"
+      className="p-2 w-full lg:h-screen my-16"
+    >
+      <div className="flex flex-col justify-center max-w-[1240px] mx-auto py-16 h-full">
         <p className="tracking-widest uppercase text-xl text-[#164879]">
           Certifications
         </p>
         <h2 className="py-4">What I've Earned</h2>
-        <div className="grid grid-cols-5 lg:grid-cols-5 sm:grid-cols-1 xs:grid-cols-1 gap-8 mt-5">
+        <div className="grid grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-8 mt-5">
+          <a
+            href="https://www.credly.com/badges/a87d10e5-497c-45d0-ac34-922e3a863735"
+            target="_blank"
+            rel="noreferrer"
+            className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl"
+          >
+            <div className="grid grid-cols-1 items-center justify-center mt-8">
+              <div className="m-auto">
+                <Image
+                  src={GbiBadge}
+                  width="64px"
+                  height="64px"
+                  alt="GDA badge"
+                />
+              </div>
+            </div>
+          </a>
           <a
             href="https://www.credly.com/badges/b9485c57-afc8-467c-bf8f-808c2dbe7cc2"
             target="_blank"
