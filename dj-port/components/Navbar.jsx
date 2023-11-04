@@ -23,6 +23,10 @@ const Navbar = () => {
       }
     };
     window.addEventListener("scroll", handleShadow);
+
+    return () => {
+      window.removeEventListener("scroll", handleShadow);
+    };
   }, []);
 
   return (
@@ -34,7 +38,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2">
+      <div className="flex justify-between items-center w-full h-full px-2 sm:px-8 md:px-16 lg:px-20 xl:px-24">
         <Link href="/">
           <Image
             src={NavBarLogo}
@@ -45,23 +49,26 @@ const Navbar = () => {
           />
         </Link>
         <div>
-          <ul style={{ color: `${textLinkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b hover:border-[#164879]">
+          <ul
+            style={{ color: `${textLinkColor}` }}
+            className="hidden md:flex space-x-10"
+          >
+            <li className="text-sm uppercase hover:border-b hover:border-[#164879]">
               <Link href="/">Home</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:border-[#164879]">
+            <li className="text-sm uppercase hover:border-b hover:border-[#164879]">
               <Link href="/#about">About</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:border-[#164879]">
+            <li className="text-sm uppercase hover:border-b hover:border-[#164879]">
               <Link href="/#certifications">Certifications</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:border-[#164879]">
+            <li className="text-sm uppercase hover:border-b hover:border-[#164879]">
               <Link href="/#skills">Skills</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:border-[#164879]">
+            <li className="text-sm uppercase hover:border-b hover:border-[#164879]">
               <Link href="/#projects">Projects</Link>
             </li>
-            <li className="ml-10 text-sm uppercase hover:border-b hover:border-[#164879]">
+            <li className="text-sm uppercase hover:border-b hover:border-[#164879]">
               <Link href="/#contact">Contact</Link>
             </li>
           </ul>
@@ -88,14 +95,14 @@ const Navbar = () => {
         <div
           className={
             navBar
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] xs:w-[65%] md:w-[45%] h-screen bg-[white] p-10 ease-in duration-700"
-              : "fixed left-[-170%] top-0 p-10 ease-in duration-400"
+              ? "md:hidden fixed left-0 top-0 w-full sm:w-full xs:w-full md:w-[45%] h-screen bg-[white] p-10 ease-in duration-700"
+              : "fixed left-[-300%] top-0 p-10 ease-in duration-400"
           }
         >
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image src={NavBarLogo} width="96" height="48" alt="/" />
+                <Image src={NavBarLogo} width={96} height={48} alt="/" />
               </Link>
               <div
                 onClick={handleNav}

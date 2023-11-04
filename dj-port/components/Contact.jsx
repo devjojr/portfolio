@@ -7,8 +7,8 @@ import LetsConnectImage from "../public/assets/laptop.jpg";
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full lg:h-screen">
-      <div className="max-w-[1240px] m-auto px-2 py-16 w-full ">
+    <div id="contact" className="w-full">
+      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="tracking-widest uppercase text-xl text-[#164879]">
           Contact
         </p>
@@ -82,7 +82,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
-                      className="border-2 rounded-lg p-3 flex border-gray-300 outline-none focus:border-[#164879]"
+                      className="border-2 rounded-lg p-3 flex border-gray-300 outline-none focus-border-[#164879]"
                       type="text"
                       name="phone"
                     />
@@ -91,7 +91,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300 outline-none focus:border-[#164879]"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 outline-none focus-border-[#164879]"
                     type="email"
                     name="email"
                   />
@@ -99,7 +99,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
-                    className="border-2 rounded-lg p-3 flex border-gray-300 outline-none focus:border-[#164879]"
+                    className="border-2 rounded-lg p-3 flex border-gray-300 outline-none focus-border-[#164879]"
                     type="text"
                     name="subject"
                   />
@@ -107,7 +107,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                    className="border-2 rounded-lg p-3 border-gray-300 outline-none focus:border-[#164879]"
+                    className="border-2 rounded-lg p-3 border-gray-300 outline-none focus-border-[#164879]"
                     rows="10"
                     name="message"
                   ></textarea>

@@ -48,19 +48,16 @@ const Projects = () => {
   ];
 
   return (
-    <div
-      id="projects"
-      className="w-full p-2 lg:h-screen md:mt-10 sm:mt-10 xs:mt-10"
-    >
+    <div id="projects" className="w-full">
       <br />
       <br />
-      <div className="mx-auto px-4 py-16 max-w-[1240px]">
+      <div className="m-auto px-4 py-16 max-w-[1240px]">
         <p className="text-xl tracking-widest uppercase text-[#164879]">
           Projects
         </p>
         <h2 className="py-4">Projects I've Completed</h2>
         <br />
-        <div className="flex flex-col justify-center group w-[80%] sm:w-[100%] xs:w-[100%] h-auto m-auto">
+        <div className="flex flex-col justify-center w-full sm:w-[80%] xs:w-[100%] m-auto">
           <ProjectDetails projectList={projectList} />
         </div>
       </div>

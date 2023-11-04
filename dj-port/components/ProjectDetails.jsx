@@ -48,18 +48,16 @@ const ProjectDetails = (props) => {
         </Link>
       </div>
 
-      <div className="hidden group-hover:block absolute bottom-[1%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-        <div className=" bottom-4 right-0 left-0">
-          <div className="flex items-center justify-center gap-2">
-            {props.projectList.map((_, i) => (
-              <div
-                key={_.id}
-                className={`transition-all w-3 h-3 bg-white rounded-full ${
-                  currentIndex === i ? "p-2" : "bg-opacity-50"
-                }`}
-              ></div>
-            ))}
-          </div>
+      <div className="hidden group-hover:block absolute bottom-4 right-0 left-0 text-center">
+        <div className="flex items-center justify-center gap-2">
+          {props.projectList.map((_, i) => (
+            <div
+              key={_.id}
+              className={`transition-all w-3 h-3 bg-white rounded-full ${
+                currentIndex === i ? "p-2" : "bg-opacity-50"
+              }`}
+            ></div>
+          ))}
         </div>
       </div>
     </div>

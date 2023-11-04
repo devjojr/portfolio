@@ -21,16 +21,11 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4">What I've Learned</h2>
-        <div className="grid grid-cols-3 lg:grid-cols-3 sm:grid-cols-1 xs:grid-cols-1 gap-8 mt-5">
+        <div className="grid grid-cols-2 lg:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-8 mt-5">
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image
-                  src={Python}
-                  width="64px"
-                  height="64px"
-                  alt="python image"
-                />
+                <Image src={Python} width={64} height={64} alt="Python image" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Python</h3>
@@ -40,12 +35,7 @@ const Skills = () => {
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image
-                  src={Rlanguage}
-                  width="64px"
-                  height="64px"
-                  alt="R image"
-                />
+                <Image src={Rlanguage} width={64} height={64} alt="R image" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>R</h3>
@@ -55,7 +45,7 @@ const Skills = () => {
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image src={Sql} width="64px" height="64px" alt="SQL image" />
+                <Image src={Sql} width={64} height={64} alt="SQL image" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>SQL</h3>
@@ -67,9 +57,9 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src={Tableau}
-                  width="64px"
-                  height="64px"
-                  alt="tableau image"
+                  width={64}
+                  height={64}
+                  alt="Tableau image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -80,7 +70,7 @@ const Skills = () => {
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image src={Go} width="64px" height="64px" alt="go image" />
+                <Image src={Go} width={64} height={64} alt="Go image" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Go</h3>
@@ -92,9 +82,9 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src={Typescript}
-                  width="64px"
-                  height="64px"
-                  alt="typescript image"
+                  width={64}
+                  height={64}
+                  alt="TypeScript image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -105,7 +95,7 @@ const Skills = () => {
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image src={Html} width="64px" height="64px" alt="html image" />
+                <Image src={Html} width={64} height={64} alt="HTML image" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>HTML</h3>
@@ -115,7 +105,7 @@ const Skills = () => {
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image src={Css} width="64px" height="64px" alt="css image" />
+                <Image src={Css} width={64} height={64} alt="CSS image" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>CSS</h3>
@@ -127,9 +117,9 @@ const Skills = () => {
               <div className="m-auto">
                 <Image
                   src={Javascript}
-                  width="64px"
-                  height="64px"
-                  alt="javascript image"
+                  width={64}
+                  height={64}
+                  alt="JavaScript image"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">

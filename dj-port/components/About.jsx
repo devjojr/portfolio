@@ -4,9 +4,9 @@ import GlassesImage from "../public/assets/glasses.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="flex items-center py-16 p-2 w-full md:h-screen">
-      <div className="md:grid grid-cols-3 gap-8 m-auto max-w-[1240px]">
-        <div className="col-span-2">
+    <div id="about" className="py-16 p-2 my-16 w-full">
+      <div className="md:grid grid-cols-3 gap-8 mx-auto max-w-[1240px] justify-center mb-16">
+        <div className="col-span-3 md:col-span-2">
           <p className="text-xl tracking-widest uppercase text-[#164879]">
             About
           </p>
@@ -35,13 +35,13 @@ const About = () => {
             nurturing innovative thinking, and delivering tangible results.
             Moreover, my experience in administration has instilled in me the
             values of teamwork, effective communication, and efficient task
-            management. I am dedicated to harnessing my growing skills in
-            data, cloud, and software engineering to drive meaningful outcomes
-            and contribute positively to the growth and success of any
-            organization I'm part of.
+            management. I am dedicated to harnessing my growing skills in data,
+            cloud, and software engineering to drive meaningful outcomes and
+            contribute positively to the growth and success of any organization
+            I'm part of.
           </p>
         </div>
-        <div className="flex items-center justify-center w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl p-4 hover:scale-110 ease-in duration-300">
+        <div className="hidden md:block items-center justify-center w-full h-auto m-auto shadow-xl shadow-gray-500 rounded-xl p-4 hover:scale-110 ease-in duration-300">
           <Image src={GlassesImage} className="rounded-xl" alt="glasses" />
         </div>
       </div>

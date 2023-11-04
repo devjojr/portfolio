@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
-      <div className="flex justify-center items-center max-w-[1240px] w-full h-full mx-auto p-2">
+      <div className="flex justify-center items-center px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 h-full mx-auto p-2">
         <div>
           <p className="tracking-widest text-[#141b24]-600 uppercase text-sm pb-5">
             Problem-solver at the intersection of Data, Software, and Cloud
@@ -31,7 +31,7 @@ const Main = () => {
               repeat={Infinity}
             />
           </h1>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-10">
+          <div className="flex items-center justify-between sm:justify-between max-w-[330px] m-auto py-10">
             <a
               href="https://www.github.com/devjojr"
               target="_blank"
