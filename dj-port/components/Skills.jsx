@@ -6,9 +6,9 @@ import Typescript from "../public/assets/certs_skills/typescript.png";
 import Html from "../public/assets/certs_skills/html.png";
 import Css from "../public/assets/certs_skills/css.png";
 import Javascript from "../public/assets/certs_skills/javascript.png";
-import Rlanguage from "../public/assets/certs_skills/rImage.png";
 import Sql from "../public/assets/certs_skills/sqlImage.png";
 import Tableau from "../public/assets/certs_skills/tableau.png";
+import NodeJS from "../public/assets/certs_skills/nodejs1.png";
 
 const Skills = () => {
   return (
@@ -35,10 +35,15 @@ const Skills = () => {
           <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
             <div className="grid grid-cols-2 gap-4 items-center justify-center">
               <div className="m-auto">
-                <Image src={Rlanguage} width={64} height={64} alt="R image" />
+                <Image
+                  src={NodeJS}
+                  width={64}
+                  height={64}
+                  alt="Node.js image"
+                />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>R</h3>
+                <h3>Node.js</h3>
               </div>
             </div>
           </div>

@@ -21,13 +21,14 @@ const About = () => {
           </p>
           <p className="py-2 text-[#141b24]-600">
             Before venturing into the tech world, I honed my skills in
-            problem-solving and mentorship. My toolkit now proudly boasts the
-            Google Data Analytics and Google Business Intelligence
-            certifications, alongside distinguished credentials from Azure, AWS,
-            and freeCodeCamp. This rich tapestry of experiences, coupled with a
-            solid administrative foundation, ignites my passion to infuse the
-            realm of technology, data analytics, and software engineering with
-            fresh perspectives and resourceful solutions.
+            problem-solving and mentorship. My toolkit now proudly includes
+            certifications in Google Data Analytics and Google Business
+            Intelligence, along with distinguished credentials from Azure, AWS,
+            and freeCodeCamp, complemented by intensive training in Node.js and
+            Express. This rich tapestry of experiences, coupled with a solid
+            administrative foundation, ignites my passion to infuse the realm of
+            technology, data analytics, and software engineering with fresh
+            perspectives and resourceful solutions.
           </p>
           <p className="py-2 text-[#141b24]-600">
             My diverse background equips me to thrive in dynamic organizational
