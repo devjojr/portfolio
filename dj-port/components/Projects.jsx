@@ -8,53 +8,60 @@ import repeatCalls from "../public/assets/projects/business_intelligence/bg_repe
 import mernNoteImage from "../public/assets/projects/mern-note.png";
 import triviaAppImage from "../public/assets/projects/trivia-app.png";
 import weatherImage from "../public/assets/projects/weather-app.png";
+import crmAppImage from "../public/assets/projects/crm-app.png";
 
 const Projects = () => {
   const projectList = [
     {
       id: 1,
+      title: "CRM App",
+      bgImage: crmAppImage,
+      projectRoute: "/CRM",
+    },
+    {
+      id: 2,
       title: "MERN Notes",
       bgImage: mernNoteImage,
       projectRoute: "/MernNotes",
     },
     {
-      id: 2,
+      id: 3,
       title: "Trivia App",
       bgImage: triviaAppImage,
       projectRoute: "/TriviaApp",
     },
     {
-      id: 3,
+      id: 4,
       title: "Weather App",
       bgImage: weatherImage,
       projectRoute: "/WeatherApp",
     },
     {
-      id: 4,
+      id: 5,
       title: "Customer Service Dashboard",
       bgImage: repeatCalls,
       projectRoute: "/CustomerServiceDashboard",
     },
     {
-      id: 5,
+      id: 6,
       title: "Cyclistic Case Study",
       bgImage: cycCaseStudy,
       projectRoute: "/CaseStudyCyclistic",
     },
     {
-      id: 6,
+      id: 7,
       title: "Go Guessing Game",
       bgImage: goGameImage,
       projectRoute: "/Gogame",
     },
     {
-      id: 7,
+      id: 8,
       title: "Python Webpage Generator",
       bgImage: pythonGenImage,
       projectRoute: "/Pythongen",
     },
     {
-      id: 8,
+      id: 9,
       title: "Go Notes",
       bgImage: goNotesImage,
       projectRoute: "/Gonotes",

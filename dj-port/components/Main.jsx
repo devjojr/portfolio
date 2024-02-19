@@ -10,8 +10,8 @@ const Main = () => {
       <div className="flex justify-center items-center px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 h-full mx-auto p-2">
         <div>
           <p className="tracking-widest text-[#141b24]-600 uppercase text-sm pb-5">
-            Problem-solver at the intersection of Data, Software, and Cloud
-            Computing, crafting strategies for informed choices.
+            Problem solver at the intersection of Software, Data, and Cloud
+            Computing.
           </p>
           <h1 className="py-4 text-[#141b24]-700">
             Hi, I'm <span className="text-[#164879]">Devon</span>
@@ -19,9 +19,9 @@ const Main = () => {
           <h1 className="py-2 text-[#141b24]-700">
             <TypeAnimation
               sequence={[
-                "I'm a Versatile Problem Solver",
+                "I'm an Adaptive Thinker",
                 2000,
-                "I'm Cloud Certified",
+                "I'm Analytically Minded",
                 2000,
                 "I'm a Lifelong Learner",
                 2000,

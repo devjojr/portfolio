@@ -5,7 +5,7 @@ import Image from "next/image";
 import pythonGenImage from "../public/assets/projects/py-page-gen.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const Merntodo = () => {
+const PythonGen = () => {
   return (
     <div>
       <Head>
@@ -22,7 +22,7 @@ const Merntodo = () => {
             style={{ objectFit: "cover" }}
             src={pythonGenImage}
             fill
-            alt="mern image"
+            alt="python gen image"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Python Webpage Generator</h2>
@@ -79,4 +79,4 @@ const Merntodo = () => {
   );
 };
 
-export default Merntodo;
+export default PythonGen;

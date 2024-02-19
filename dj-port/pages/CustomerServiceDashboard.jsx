@@ -84,7 +84,6 @@ const CustomerServiceDashboard = () => {
           <Link href="/#projects">
             <p className="cursor-pointer underline">Go Back</p>
           </Link>
-          {/* <ViewImage /> */}
         </div>
       </div>
     </div>

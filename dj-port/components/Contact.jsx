@@ -25,11 +25,11 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2 mt-5">Devon</h2>
-                <p>Technology Specialist</p>
+                <p>Junior Back End Developer</p>
                 <div className="border-b border-gray-200 mb-4">
                   <p className="w-[85%] md:w-[90%] py-4 text-sm">
-                    Problem-solver at the intersection of Data, Software, and
-                    Cloud Computing, crafting strategies for informed choices.
+                    Problem solver at the intersection of Software, Data, and
+                    Cloud Computing.
                   </p>
                 </div>
               </div>
