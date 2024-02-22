@@ -25,9 +25,9 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2 mt-5">Devon</h2>
-                <p>Junior Back End Developer</p>
+                <h3 className>Junior Backend Developer</h3>
                 <div className="border-b border-gray-200 mb-4">
-                  <p className="w-[85%] md:w-[90%] py-4 text-sm">
+                  <p className="w-[85%] md:w-[90%] py-4 text-sm uppercase">
                     Problem solver at the intersection of Software, Data, and
                     Cloud Computing.
                   </p>
@@ -39,7 +39,7 @@ const Contact = () => {
                 </p>
                 <div className="flex items-center justify-evenly py-4 mt-10">
                   <a
-                    href="https://www.linkedin.com/in/jr-j-42780924a/"
+                    href="https://www.linkedin.com/in/devon-j-42780924a/"
                     target="_blank"
                     rel="noreferrer"
                   >

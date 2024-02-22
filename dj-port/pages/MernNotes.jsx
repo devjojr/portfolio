@@ -46,6 +46,13 @@ const MernNotes = () => {
             >
               <button className="mt-4 mr-8 px-8 py-2">Code</button>
             </a>
+            <a
+              href="https://notes-backend-prod.onrender.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="mt-4 mr-8 px-8 py-2">Visit App</button>
+            </a>
           </div>
 
           <div className="py-4 rounded-xl col-span-4 md:col-span-1 shadow-xl shadow-gray-400">

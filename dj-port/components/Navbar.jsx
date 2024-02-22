@@ -112,9 +112,9 @@ const Navbar = () => {
               </div>
             </div>
             <div className="border-b border-gray-200 my-4">
-              <p className="w-[85%] md:w-[90%] py-4 text-sm">
-                Problem-solver at the intersection of Data, Software, and Cloud
-                Computing, crafting strategies for informed choices.
+              <p className="w-[85%] md:w-[90%] py-4 text-sm uppercase">
+                Problem Solver at the intersection of Software, Data, and Cloud
+                Computing.
               </p>
             </div>
           </div>
@@ -166,7 +166,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/jr-j-42780924a/"
+                  href="https://www.linkedin.com/in/devon-j-42780924a/"
                   target="_blank"
                   rel="noreferrer"
                 >

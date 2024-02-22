@@ -42,7 +42,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/in/jr-j-42780924a/"
+              href="https://www.linkedin.com/in/devon-j-42780924a/"
               target="_blank"
               rel="noreferrer"
             >

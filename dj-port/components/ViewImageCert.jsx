@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Image from "next/image";
-import executiveSummary from "../public/assets/projects/business_intelligence/executive_summary.png";
+import CTDCert from "../public/assets/certs_skills/ctd-cert.png";
 
-function ViewImage() {
+function ViewImageCert() {
   const [isEnlarged, setIsEnlarged] = useState(false);
 
   const handleImageClick = () => {
@@ -12,7 +12,7 @@ function ViewImage() {
   return (
     <div>
       <button onClick={handleImageClick} className="mt-4 mr-8 px-8 py-2">
-        Executive Summary
+        View Certificate
       </button>
       {isEnlarged && (
         <div
@@ -21,8 +21,8 @@ function ViewImage() {
         >
           <div className="max-w-screen-md p-4">
             <Image
-              src={executiveSummary}
-              alt="Executive Summary Image"
+              src={CTDCert}
+              alt="Certificate Image"
               width={600}
               height={800}
             />
@@ -33,4 +33,4 @@ function ViewImage() {
   );
 }
 
-export default ViewImage;
+export default ViewImageCert;

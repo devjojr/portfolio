@@ -9,6 +9,9 @@ import Tableau from "../public/assets/certs_skills/tableau.png";
 import NodeJS from "../public/assets/certs_skills/nodejs1.png";
 import Express from "../public/assets/certs_skills/express.png";
 import Mongo from "../public/assets/certs_skills/mongodb.png";
+import NImage from "../public/assets/certs_skills/njs-image.svg";
+import TypeImage from "../public/assets/certs_skills/typescript.png";
+import TailImage from "../public/assets/certs_skills/tailwind.png";
 
 const Skills = () => {
   return (
@@ -94,6 +97,41 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>SQL</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
+            <div className="grid grid-cols-2 gap-4 items-center justify-center">
+              <div className="m-auto">
+                <Image src={NImage} width={64} height={64} alt="HTML image" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Next.js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
+            <div className="grid grid-cols-2 gap-4 items-center justify-center">
+              <div className="m-auto">
+                <Image src={TypeImage} width={64} height={64} alt="CSS image" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>TypeScript</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 hover:scale-110 ease-in duration-300 shadow-xl rounded-xl">
+            <div className="grid grid-cols-2 gap-4 items-center justify-center">
+              <div className="m-auto">
+                <Image
+                  src={TailImage}
+                  width={64}
+                  height={64}
+                  alt="JavaScript image"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Tailwind</h3>
               </div>
             </div>
           </div>
