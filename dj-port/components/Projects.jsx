@@ -9,6 +9,7 @@ import mernNoteImage from "../public/assets/projects/mern-note.png";
 import triviaAppImage from "../public/assets/projects/trivia-app.png";
 import weatherImage from "../public/assets/projects/weather-app.png";
 import crmAppImage from "../public/assets/projects/crm-app.png";
+import projectGenImage from "../public/assets/projects/project-generator.png";
 
 const Projects = () => {
   const projectList = [
@@ -26,42 +27,48 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "Project Generator",
+      bgImage: projectGenImage,
+      projectRoute: "/ProjectGenerator",
+    },
+    {
+      id: 4,
       title: "Trivia App",
       bgImage: triviaAppImage,
       projectRoute: "/TriviaApp",
     },
     {
-      id: 4,
+      id: 5,
       title: "Weather App",
       bgImage: weatherImage,
       projectRoute: "/WeatherApp",
     },
     {
-      id: 5,
+      id: 6,
       title: "Customer Service Dashboard",
       bgImage: repeatCalls,
       projectRoute: "/CustomerServiceDashboard",
     },
     {
-      id: 6,
+      id: 7,
       title: "Cyclistic Case Study",
       bgImage: cycCaseStudy,
       projectRoute: "/CaseStudyCyclistic",
     },
     {
-      id: 7,
+      id: 8,
       title: "Go Guessing Game",
       bgImage: goGameImage,
       projectRoute: "/Gogame",
     },
     {
-      id: 8,
+      id: 9,
       title: "Python Webpage Generator",
       bgImage: pythonGenImage,
       projectRoute: "/Pythongen",
     },
     {
-      id: 9,
+      id: 10,
       title: "Go Notes",
       bgImage: goNotesImage,
       projectRoute: "/Gonotes",
